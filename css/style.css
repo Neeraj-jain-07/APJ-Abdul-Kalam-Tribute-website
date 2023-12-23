@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1.4vh solid rgb(5, 5, 100);
+    background-color: #e5e5fd;
+}
+
+.main-content {
+    margin: 0px 22vw;
+    /* background-color: red; */
+}
+
+.up-part {
+    margin: 9vw 0px 0px;
+    height: 25vw;
+}
+
+.up-part .profile-pic {
+    width: 40%;
+}
+
+.up-part .profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.up-part .content h1 {
+    padding-top: 14vw;
+    padding-left: 22px;
+}
+
+.up-part .content p {
+    text-align: end;
+}
+
+
+.mid-part h1 {
+    font-size: 5vw;
+}
+
+.mid-part p {
+    padding-top: 2.5vw;
+    letter-spacing: 0.4px;
+}
+
+.mid-part h4{
+    font-size: 2vw;
+    padding-top: 3vw;
+}
+
+.mid-part ul{
+    padding-left: 60px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.mid-part .last p{
+     text-align: end;
+     padding-bottom: 4vw;
+} 
